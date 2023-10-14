@@ -4,11 +4,6 @@ export default function Home() {
   return (
     <>
       <h1 className="text-4xl mb-10 mt-6 text-center font-bold">
-        <img
-          src="/app/img/pngwingcom.png"
-          alt="pngwingcom.png"
-          className="w-8 h-8 mr-2 float-left"
-        />
         YouTube channel recommendation site
       </h1>
       <div className="mb-4 bg-green-700 p-4 m-4 rounded-lg hover:bg-green-200">
@@ -52,6 +47,15 @@ export default function Home() {
           영화,드라마 소개 유튜브 채널
         </Link>
         <p className="mb-2"> 숨겨진 영화,드라마 추천</p>
+      </div>
+
+      <div className="mb-4 bg-gray-400 p-4 m-4 rounded-lg">
+        <Link
+          href="https://github.com/leetaeyeon11111/middleWeb"
+          className="text-xl text-black font-bold"
+        >
+          leetaeyeon11111 middleWeb GitHub page
+        </Link>
       </div>
     </>
   )
